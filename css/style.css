@@ -226,26 +226,20 @@ h1 {
 }
 
 .store-btn {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    padding: 15px 30px;
-    background: #2D3748;
-    color: #F7FAFC;
-    text-decoration: none;
-    border-radius: 10px;
-    font-size: 16px;
+    display: inline-block;
     transition: all 0.2s;
-    border: 1px solid transparent;
+    text-decoration: none;
 }
 
 .store-btn:hover {
-    border-color: #9F7AEA;
     transform: translateY(-2px);
+    opacity: 0.9;
 }
 
-.store-icon {
-    font-size: 20px;
+.store-btn img {
+    display: block;
+    height: 40px;
+    width: auto;
 }
 
 /* Footer */
@@ -295,8 +289,7 @@ footer p {
     }
     
     .store-btn {
-        width: 200px;
-        justify-content: center;
+        display: inline-block;
     }
 }
 

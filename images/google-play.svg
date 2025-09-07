@@ -1,0 +1,15 @@
+<svg width="135" height="40" viewBox="0 0 135 40" xmlns="http://www.w3.org/2000/svg">
+  <rect width="135" height="40" rx="5" fill="#000"/>
+  <g fill="#FFF">
+    <!-- Play logo triangle -->
+    <path d="M22 13v14l7-7z" fill="#FFF"/>
+    <path d="M22 13l-7 7 7 7v-14m0 0l10 10-3 1.5-7-4.5v-7z" fill="#4285F4" opacity="0.8"/>
+    <path d="M22 27l7-4.5 3 1.5-10-10v7z" fill="#34A853" opacity="0.8"/>
+    <path d="M15 20l7-7v14l-7-7z" fill="#FBBC04" opacity="0.8"/>
+    <path d="M22 13v14l10-10-3-1.5-7 4.5v-7z" fill="#EA4335" opacity="0.8"/>
+    <!-- GET IT ON -->
+    <text x="45" y="15" font-family="system-ui" font-size="10" font-weight="400">GET IT ON</text>
+    <!-- Google Play -->
+    <text x="45" y="30" font-family="system-ui" font-size="14" font-weight="600">Google Play</text>
+  </g>
+</svg>
