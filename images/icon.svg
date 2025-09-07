@@ -1,0 +1,45 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="512" height="512" rx="100" fill="#1A202C"/>
+  
+  <!-- Moon Glow -->
+  <circle cx="256" cy="256" r="140" fill="url(#moonGlow)" opacity="0.3"/>
+  
+  <!-- Crescent Moon -->
+  <g transform="translate(256, 256)">
+    <path d="M -60 -80 
+             C -60 -80, 20 -80, 60 -40
+             C 80 -20, 80 20, 60 40
+             C 20 80, -60 80, -60 80
+             C -20 80, 20 40, 20 0
+             C 20 -40, -20 -80, -60 -80"
+          fill="#FBD38D"/>
+  </g>
+  
+  <!-- Stars -->
+  <g fill="#9F7AEA">
+    <circle cx="150" cy="120" r="8">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="380" cy="150" r="6">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="3s" begin="0.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="350" cy="350" r="7">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="3s" begin="1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="120" cy="320" r="5">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="3s" begin="1.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="400" cy="250" r="6">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="3s" begin="2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <!-- Gradients -->
+  <defs>
+    <radialGradient id="moonGlow">
+      <stop offset="0%" stop-color="#FBD38D"/>
+      <stop offset="100%" stop-color="#FBD38D" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg>
